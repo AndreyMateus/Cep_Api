@@ -2,6 +2,6 @@
 
 *OBS: Aqui focamos nas seguintes propriedades do OBJ retornado pela API: localidade, uf e ddd, caso queira acrescentar mais propriedades, basta apenas consultar a documentação.*
 
-Ver Página: [Clique Aqui](linkdapaginaaqui)
+Ver Página: [Clique Aqui](https://cepapi.pages.dev/)
 
 Documentação da API: [Clique Aqui](https://viacep.com.br/)
