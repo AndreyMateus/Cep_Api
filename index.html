@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cep API</title>
+        <meta name="author" content="Andrey Mateus">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+
+    <body>
+        <main>
+            <!--! method get para bloquear a ação de enviar na tecla "enter" (optei por não dar um eventDefault() no submit do form.) -->
+            <form action="#" method="get" class="form">
+                <label for="cep" class="label-cep">Digite seu CEP:</label>
+                <input type="text" id="cep" maxlength="8" class="input-cep" placeholder="Ex: 26650000">
+                <button type="button" class="btn-form">Buscar</button>
+            </form>
+
+            <div class="result">
+                <p>LOCALIDADE: <span class="valueCep displayLocality">-</span></p>
+                <p>UF: <span class="valueCep displayUf">-</span></p>
+                <p>DDD: <span class="valueCep displayDdd">-</span></p>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>Feito por: <a href="https://github.com/AndreyMateus" target="_blank">Andrey Mateus</a></p>
+        </footer>
+    </body>
+
+    <script src="./assets/js/main.js"></script>
+
+</html>

@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: grey;
+}
+
+.form {
+    border: 2px solid black;
+    max-width: 60%;
+    margin: 2em auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.result {
+    text-align: center;
+    border: 2px solid black;
+    margin: 0 auto;
+    max-width: 50%;
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 0.9em;
+    padding: 1.2em;
+}
+
+.result p {
+    font-size: 1.5em;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.valueCep {
+    display: inline-block;
+    width: 70%;
+    background-color: aliceblue;
+    border: 1px solid #000;
+}
+
+.label-cep {
+    font-size: 4em;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+}
+
+.input-cep {
+    width: 40%;
+    text-align: center;
+    font-size: 2em;
+    border-radius: 2px;
+    border: 3px solid #000;
+    outline: none;
+}
+
+
+
+.btn-form {
+    margin-top: 1em;
+    font-size: 2em;
+    padding: 0.3em;
+    border-radius: 5px;
+}
+
+.btn-form:hover {
+    box-shadow: 0 0 10px #000;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    height: 10vh;
+    border-top: 1px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    font-family: sans-serif;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-shadow: 0 0 10px red;
+}
+
+/* QUERIES */
+
+@media (max-width: 885px) {
+
+    .label-cep,
+    .result p,
+    .btn-form {
+        font-size: 1.4em;
+        margin-bottom: 0.2em;
+    }
+
+    .input-cep {
+        width: 100%;
+    }
+
+    .displayLocality {
+        width: 100%;
+    }
+
+    .footer p {
+
+        font-size: 1.3em;
+    }
+
+    .form,
+    .result {
+        max-width: 95%;
+    }
+}
